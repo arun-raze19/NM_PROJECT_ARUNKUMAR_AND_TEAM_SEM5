@@ -1,155 +1,128 @@
-# **NAAN MUDHALVAN - SALESFORCE REPORT**  
-### **A CRM Application To Manage The Services Offered by an Institution**  
+# 🎯 **NAAN MUDHALVAN - SALESFORCE REPORT**  
+## 🚀 **A CRM Application To Manage Services Offered by an Institution**  
 
 ---
 
-## **Project Team**  
-| **Name**               | **Roll Number**    |
+## 🌟 **Project Team**  
+| **👨‍💻 Name**           | **📋 Roll Number**  |
 |------------------------|--------------------|
-| Arunkumar V           | 421622243003       |
-| Keerthi K             | 421622243026       |
-| Yashwanth Kumar A     | 421622243057       |
-| Pugazhendhi N         | 421622243041       |
-| Hariharan S           | 421622243020       |
+| **Arunkumar V**       | 421622243003       |
+| **Keerthi K**         | 421622243026       |
+| **Yashwanth Kumar A** | 421622243057       |
+| **Pugazhendhi N**     | 421622243041       |
+| **Hariharan S**       | 421622243020       |
 
 ---
 
-## **Abstract**  
-The Salesforce-based **Garage Management System (GMS)** is a comprehensive solution for automotive repair businesses. It leverages Salesforce's CRM capabilities to automate processes like appointment scheduling, inventory management, billing, and customer communication. GMS ensures streamlined operations, top-notch service, and competitive advantage for repair facilities.  
-
-
-## **Detailed Tasks**
-
-### **Task 1: Creating Developer Account**  
-1. Visit [Salesforce Developer Signup](https://developer.salesforce.com/).
-2. Fill the signup form:
-   - **First Name, Last Name, Email, Role**: Developer  
-   - **Company**: College Name  
-   - **Country**: India  
-   - **Postal Code**: PIN code  
-   - **Username**: Format `username@organization.com`  
-3. Activate your account by verifying the email.
+## 📝 **Abstract**  
+The **Garage Management System (GMS)** is a modern, Salesforce-powered CRM application tailored for automotive repair businesses. It automates key processes like **appointment scheduling**, **inventory management**, **billing**, and **customer feedback**. With GMS, businesses can deliver exceptional services while gaining a competitive edge in the market.
 
 ---
 
-### **Task 2: Creating Custom Objects**
-#### **Objects Created:**
+## 🛠️ **Detailed Tasks**
+
+### ✨ **Task 1: Creating Developer Account**  
+1. Go to [Salesforce Developer Signup](https://developer.salesforce.com/).  
+2. Complete the form:  
+   - **First Name, Last Name, Email, Role:** *Developer*  
+   - **Company:** *College Name*  
+   - **Country:** *India*  
+   - **Postal Code:** *PIN Code*  
+   - **Username:** *Format `username@organization.com`*  
+3. Activate your account via email verification.  
+
+---
+
+### 🛠️ **Task 2: Custom Objects**  
+**Objects Created:**  
 1. **Customer Details**  
-   - Record Name: `Customer Name`  
-   - Data Type: `Text`
+   - *Record Name:* `Customer Name`  
+   - *Type:* Text  
 2. **Appointment**  
-   - Record Name: `Appointment Name`  
-   - Auto Number: `app-{000}`
+   - *Record Name:* `Appointment Name`  
+   - *Auto Number:* `app-{000}`  
 3. **Service Records**  
-   - Record Name: `Service Records Name`  
-   - Auto Number: `ser-{000}`
-4. **Billing Details and Feedback**  
-   - Record Name: `Billing Details and Feedback Name`  
-   - Auto Number: `bill-{000}`
+   - *Record Name:* `Service Records Name`  
+   - *Auto Number:* `ser-{000}`  
+4. **Billing Details & Feedback**  
+   - *Record Name:* `Billing Details Name`  
+   - *Auto Number:* `bill-{000}`  
 
 ---
 
-### **Task 3: Creating Custom Tabs**  
-Custom tabs were created for:  
-- Customer Details  
-- Appointments  
-- Service Records  
-- Billing Details and Feedback  
+### 🔖 **Task 3: Custom Tabs**  
+Custom tabs for:  
+- 🟢 **Customer Details**  
+- 🟡 **Appointments**  
+- 🔵 **Service Records**  
+- 🔴 **Billing Details and Feedback**
 
 ---
 
-### **Task 4: Building Lightning App**  
-Created a **Garage Management Application** with:  
-- Navigation items: Customer Details, Appointments, Service Records, Reports, Dashboards.  
-- User Profiles: System Administrator.  
+### ⚡ **Task 4: Building Lightning App**  
+Created a **Garage Management Application**:  
+- **Navigation Items:** Customer Details, Appointments, Service Records, Reports, Dashboards.  
+- **User Profiles:** System Administrator.  
 
 ---
 
-### **Task 5: Creating Fields**  
-| **Object**                  | **Field**                  | **Type**    | **Notes**                       |
-|-----------------------------|----------------------------|-------------|----------------------------------|
-| Customer Details            | Phone Number              | Phone       | Captures customer contact info. |
-| Appointment                 | Vehicle Number Plate      | Text        | Unique, Required (10 chars).    |
-| Service Records             | Service Status            | Picklist    | Values: `Started`, `Completed`. |
-| Billing Details and Feedback| Payment Status            | Picklist    | Values: `Pending`, `Completed`. |
+### 📊 **Task 5: Custom Fields**  
+| **📂 Object**                 | **📋 Field**             | **🔍 Type**      | **💡 Notes**                   |
+|-------------------------------|-------------------------|-----------------|--------------------------------|
+| Customer Details              | Phone Number           | Phone           | Contact details of customers. |
+| Appointment                   | Vehicle Number Plate   | Text            | Required, unique (10 chars).  |
+| Service Records               | Service Status         | Picklist        | Values: `Started`, `Completed`.|
+| Billing Details & Feedback    | Payment Status         | Picklist        | Values: `Pending`, `Completed`.|
 
 ---
 
-### **Task 6: Validation Rules**  
-1. **Appointment Object**  
-   - Vehicle Number Plate format: `[A-Z]{2}[0-9]{2}[A-Z]{2}[0-9]{4}`  
-2. **Service Records Object**  
-   - Service Status must be `Completed`.  
-3. **Billing Details and Feedback**  
-   - Rating should be between `1` and `5`.  
+### ✅ **Task 6: Validation Rules**  
+- **Appointment:**  
+  - Vehicle Number Plate format: `[A-Z]{2}[0-9]{2}[A-Z]{2}[0-9]{4}`  
+- **Service Records:**  
+  - Service Status must equal `Completed`.  
+- **Billing Feedback:**  
+  - Rating must be between `1` and `5`.  
 
 ---
 
-### **Task 7: Duplicate Rules**  
-- Created matching and duplicate rules for **Customer Details** based on **Email** and **Phone Number**.
+### 👥 **Task 7: Duplicate Rules**  
+- Duplicate rules for **Customer Details** (using **Email** and **Phone Number**).  
 
 ---
 
-### **Task 8: Profiles**  
-1. **Manager Profile**  
-   - Default app: Garage Management Application  
-   - Permissions: All custom objects.  
-2. **Sales Person Profile**  
-   - Permissions: Limited to relevant custom objects.
+### 🔒 **Task 8: Roles & Sharing**  
+- **Roles:** Manager and Sales Person.  
+- **Sharing:**  
+  - *Service Records Object* → Private OWD, sharing rule grants Manager read/write access to Sales Person data.
 
 ---
 
-### **Task 9: Roles**  
-- **Manager** role created under CEO.  
-- **Sales Person** role created under Manager.
+### 📧 **Task 9: Automation**  
+- Created a **Record-Triggered Flow**:  
+  - Sends email alerts upon **payment completion**.  
 
 ---
 
-### **Task 10: Users**  
-- Manager and Sales Person users created with appropriate roles and profiles.
+### ✍️ **Task 10: Apex Trigger**  
+- Trigger **AmountDistribution:** Calculates total billing amount based on selected services.
 
 ---
 
-### **Task 11: Public Groups**  
-Created a public group named **Sales Team** with the **Sales Person** role.
+### 📈 **Task 11: Reports**  
+- Generated a **Service Information Report** in the **Garage Management Folder**, including:  
+  - Customer Name, Appointment Date, Service Status, Payment Status.  
 
 ---
 
-### **Task 12: Sharing Settings**  
-- **Service Records Object**:  
-   - OWD: Private  
-   - Sharing Rule: Sales Person → Manager (Read/Write).
+### 📊 **Task 12: Dashboards**  
+- Built a **Service Rating Dashboard** using visually rich **line charts**, **bar graphs**, and **performance summaries**.  
 
 ---
 
-### **Task 13: Flows**  
-Built a **Record-Triggered Flow** for **Billing Details and Feedback**:  
-- Triggers email alerts upon payment completion.
+## 🌟 **Conclusion**  
+The **Garage Management System (GMS)** empowers automotive businesses by simplifying complex processes, improving efficiency, and enhancing customer satisfaction. Built with Salesforce, GMS delivers **real-time insights** and **streamlined workflows**, ensuring businesses stay ahead of the competition. 🚘💡
 
----
-
-### **Task 14: Apex Triggers**  
-- **Trigger**: AmountDistribution  
-   - Calculates service amount based on selected services.  
-
----
-
-### **Task 15: Reports**  
-- Created **Garage Management Folder**.  
-- Generated a **Service Information Report** with fields:  
-   - Customer Name, Appointment Date, Service Status, Payment Paid.
-
----
-
-### **Task 16: Dashboards**  
-- Built **Service Rating Dashboard** with line charts and shared with appropriate roles.
-
----
-
-## **Conclusion**  
-The **Garage Management System** on Salesforce streamlines operations, enhances service quality, and ensures a competitive edge for automotive repair facilities. With its comprehensive CRM capabilities, it simplifies daily operations and provides actionable business insights.
-
----
 ---
 #**PRACTICAL VIDEO**
 https://github.com/user-attachments/assets/56fa0956-d77d-4281-8e93-a2a41dad15fb
