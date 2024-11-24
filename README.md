@@ -150,3 +150,7 @@ Built a **Record-Triggered Flow** for **Billing Details and Feedback**:
 The **Garage Management System** on Salesforce streamlines operations, enhances service quality, and ensures a competitive edge for automotive repair facilities. With its comprehensive CRM capabilities, it simplifies daily operations and provides actionable business insights.
 
 ---
+---
+#**PRACTICAL VIDEO**
+https://github.com/user-attachments/assets/56fa0956-d77d-4281-8e93-a2a41dad15fb
+---
