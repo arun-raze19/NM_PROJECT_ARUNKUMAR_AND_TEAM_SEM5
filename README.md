@@ -7,8 +7,8 @@
 | **👨‍💻 Name**           | **📋 Roll Number**  |
 |------------------------|--------------------|
 | **Arunkumar V**       | 421622243003       |
-| **Keerthi K**         | 421622243026       |
-| **Yashwanth Kumar A** | 421622243057       |
+| **Keerthivasan K**         | 421622243026       |
+| **Yashwanth Kumar S** | 421622243057       |
 | **Pugazhendhi N**     | 421622243041       |
 | **Hariharan S**       | 421622243020       |
 
